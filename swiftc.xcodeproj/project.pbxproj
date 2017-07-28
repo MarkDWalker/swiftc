@@ -7,12 +7,58 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		98A6D4CD1F2BE21200D79C16 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A6D4CC1F2BE21200D79C16 /* AppDelegate.swift */; };
-		98A6D4CF1F2BE21200D79C16 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A6D4CE1F2BE21200D79C16 /* ViewController.swift */; };
 		98A6D4D11F2BE21200D79C16 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98A6D4D01F2BE21200D79C16 /* Assets.xcassets */; };
-		98A6D4D41F2BE21200D79C16 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98A6D4D21F2BE21200D79C16 /* Main.storyboard */; };
 		98A6D4DF1F2BE21200D79C16 /* swiftcTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A6D4DE1F2BE21200D79C16 /* swiftcTests.swift */; };
 		98A6D4EA1F2BE21200D79C16 /* swiftcUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A6D4E91F2BE21200D79C16 /* swiftcUITests.swift */; };
+		98A6D5201F2BE3D900D79C16 /* CGFloat_Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A6D4F71F2BE3D900D79C16 /* CGFloat_Extension.swift */; };
+		98A6D5211F2BE3D900D79C16 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 98A6D4F81F2BE3D900D79C16 /* Info.plist */; };
+		98A6D5221F2BE3D900D79C16 /* MWArc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A6D4F91F2BE3D900D79C16 /* MWArc.swift */; };
+		98A6D5231F2BE3D900D79C16 /* MWArcCommandSequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A6D4FA1F2BE3D900D79C16 /* MWArcCommandSequence.swift */; };
+		98A6D5241F2BE3D900D79C16 /* MWCadArc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A6D4FB1F2BE3D900D79C16 /* MWCadArc.swift */; };
+		98A6D5251F2BE3D900D79C16 /* MWCadCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A6D4FC1F2BE3D900D79C16 /* MWCadCircle.swift */; };
+		98A6D5261F2BE3D900D79C16 /* MWCadCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A6D4FD1F2BE3D900D79C16 /* MWCadCommand.swift */; };
+		98A6D5271F2BE3D900D79C16 /* MWCadCommandList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A6D4FE1F2BE3D900D79C16 /* MWCadCommandList.swift */; };
+		98A6D5281F2BE3D900D79C16 /* MWCadEntityCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A6D4FF1F2BE3D900D79C16 /* MWCadEntityCollection.swift */; };
+		98A6D5291F2BE3D900D79C16 /* MWCadLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A6D5001F2BE3D900D79C16 /* MWCadLine.swift */; };
+		98A6D52A1F2BE3D900D79C16 /* MWCadLineCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A6D5011F2BE3D900D79C16 /* MWCadLineCollection.swift */; };
+		98A6D52B1F2BE3D900D79C16 /* MWCadTransforms.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A6D5021F2BE3D900D79C16 /* MWCadTransforms.swift */; };
+		98A6D52C1F2BE3D900D79C16 /* MWCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A6D5031F2BE3D900D79C16 /* MWCircle.swift */; };
+		98A6D52D1F2BE3D900D79C16 /* MWCircleCommandSequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A6D5041F2BE3D900D79C16 /* MWCircleCommandSequence.swift */; };
+		98A6D52E1F2BE3D900D79C16 /* MWCommandControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A6D5051F2BE3D900D79C16 /* MWCommandControl.swift */; };
+		98A6D52F1F2BE3D900D79C16 /* MWCommandSequenceProto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A6D5061F2BE3D900D79C16 /* MWCommandSequenceProto.swift */; };
+		98A6D5301F2BE3D900D79C16 /* MWCommandStatusEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A6D5071F2BE3D900D79C16 /* MWCommandStatusEnum.swift */; };
+		98A6D5311F2BE3D900D79C16 /* MWCopyCommandSequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A6D5081F2BE3D900D79C16 /* MWCopyCommandSequence.swift */; };
+		98A6D5321F2BE3D900D79C16 /* MWDeleteCommandSequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A6D5091F2BE3D900D79C16 /* MWDeleteCommandSequence.swift */; };
+		98A6D5331F2BE3D900D79C16 /* MWDescriptionReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A6D50A1F2BE3D900D79C16 /* MWDescriptionReader.swift */; };
+		98A6D5341F2BE3D900D79C16 /* MWDistCommandSequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A6D50B1F2BE3D900D79C16 /* MWDistCommandSequence.swift */; };
+		98A6D5351F2BE3D900D79C16 /* MWDrawCommands.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A6D50C1F2BE3D900D79C16 /* MWDrawCommands.swift */; };
+		98A6D5361F2BE3D900D79C16 /* MWDrawingSpace.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A6D50D1F2BE3D900D79C16 /* MWDrawingSpace.swift */; };
+		98A6D5371F2BE3D900D79C16 /* MWIDCommandSequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A6D50E1F2BE3D900D79C16 /* MWIDCommandSequence.swift */; };
+		98A6D5381F2BE3D900D79C16 /* MWLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A6D50F1F2BE3D900D79C16 /* MWLine.swift */; };
+		98A6D5391F2BE3D900D79C16 /* MWLineCommandSequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A6D5101F2BE3D900D79C16 /* MWLineCommandSequence.swift */; };
+		98A6D53A1F2BE3D900D79C16 /* MWListCommandSequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A6D5111F2BE3D900D79C16 /* MWListCommandSequence.swift */; };
+		98A6D53B1F2BE3D900D79C16 /* MWMlineCommandSequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A6D5121F2BE3D900D79C16 /* MWMlineCommandSequence.swift */; };
+		98A6D53C1F2BE3D900D79C16 /* MWMoveCommmadSequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A6D5131F2BE3D900D79C16 /* MWMoveCommmadSequence.swift */; };
+		98A6D53D1F2BE3D900D79C16 /* MWPointPickedStatusEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A6D5141F2BE3D900D79C16 /* MWPointPickedStatusEnum.swift */; };
+		98A6D53E1F2BE3D900D79C16 /* MWSelectionSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A6D5151F2BE3D900D79C16 /* MWSelectionSet.swift */; };
+		98A6D53F1F2BE3D900D79C16 /* MWSnapsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A6D5161F2BE3D900D79C16 /* MWSnapsController.swift */; };
+		98A6D5401F2BE3D900D79C16 /* MWSurveyCall.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A6D5171F2BE3D900D79C16 /* MWSurveyCall.swift */; };
+		98A6D5411F2BE3D900D79C16 /* MWSurveyCallEnumerations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A6D5181F2BE3D900D79C16 /* MWSurveyCallEnumerations.swift */; };
+		98A6D5421F2BE3D900D79C16 /* MWSurveyCallRules.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A6D5191F2BE3D900D79C16 /* MWSurveyCallRules.swift */; };
+		98A6D5431F2BE3D900D79C16 /* MWSwipeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A6D51A1F2BE3D900D79C16 /* MWSwipeView.swift */; };
+		98A6D5441F2BE3D900D79C16 /* MWTransformCalculations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A6D51B1F2BE3D900D79C16 /* MWTransformCalculations.swift */; };
+		98A6D5451F2BE3D900D79C16 /* MWZoomExtentsCommandSequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A6D51C1F2BE3D900D79C16 /* MWZoomExtentsCommandSequence.swift */; };
+		98A6D5461F2BE3D900D79C16 /* myViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A6D51D1F2BE3D900D79C16 /* myViewController.swift */; };
+		98A6D5471F2BE3D900D79C16 /* NSTextView_Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A6D51E1F2BE3D900D79C16 /* NSTextView_Extension.swift */; };
+		98A6D54A1F2BE3EA00D79C16 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A6D5491F2BE3EA00D79C16 /* AppDelegate.swift */; };
+		98A6D5511F2BE40100D79C16 /* righton.png in Resources */ = {isa = PBXBuildFile; fileRef = 98A6D54B1F2BE40100D79C16 /* righton.png */; };
+		98A6D5521F2BE40100D79C16 /* SplitViewController_Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A6D54C1F2BE40100D79C16 /* SplitViewController_Main.swift */; };
+		98A6D5531F2BE40100D79C16 /* String_Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A6D54D1F2BE40100D79C16 /* String_Extension.swift */; };
+		98A6D5541F2BE40100D79C16 /* ViewController_LegalTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A6D54E1F2BE40100D79C16 /* ViewController_LegalTextView.swift */; };
+		98A6D5551F2BE40100D79C16 /* ViewController_textInputPanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A6D54F1F2BE40100D79C16 /* ViewController_textInputPanel.swift */; };
+		98A6D5561F2BE40100D79C16 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A6D5501F2BE40100D79C16 /* ViewController.swift */; };
+		98A6D5591F2BE9BB00D79C16 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98A6D5571F2BE9BB00D79C16 /* Main.storyboard */; };
+		98A6D55B1F2BEA7B00D79C16 /* WindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A6D55A1F2BEA7B00D79C16 /* WindowController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,10 +80,7 @@
 
 /* Begin PBXFileReference section */
 		98A6D4C91F2BE21200D79C16 /* swiftc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = swiftc.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		98A6D4CC1F2BE21200D79C16 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		98A6D4CE1F2BE21200D79C16 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		98A6D4D01F2BE21200D79C16 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		98A6D4D31F2BE21200D79C16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		98A6D4D51F2BE21200D79C16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		98A6D4DA1F2BE21200D79C16 /* swiftcTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = swiftcTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		98A6D4DE1F2BE21200D79C16 /* swiftcTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftcTests.swift; sourceTree = "<group>"; };
@@ -45,6 +88,55 @@
 		98A6D4E51F2BE21200D79C16 /* swiftcUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = swiftcUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		98A6D4E91F2BE21200D79C16 /* swiftcUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftcUITests.swift; sourceTree = "<group>"; };
 		98A6D4EB1F2BE21200D79C16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		98A6D4F71F2BE3D900D79C16 /* CGFloat_Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGFloat_Extension.swift; sourceTree = "<group>"; };
+		98A6D4F81F2BE3D900D79C16 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		98A6D4F91F2BE3D900D79C16 /* MWArc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MWArc.swift; sourceTree = "<group>"; };
+		98A6D4FA1F2BE3D900D79C16 /* MWArcCommandSequence.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MWArcCommandSequence.swift; sourceTree = "<group>"; };
+		98A6D4FB1F2BE3D900D79C16 /* MWCadArc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MWCadArc.swift; sourceTree = "<group>"; };
+		98A6D4FC1F2BE3D900D79C16 /* MWCadCircle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MWCadCircle.swift; sourceTree = "<group>"; };
+		98A6D4FD1F2BE3D900D79C16 /* MWCadCommand.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MWCadCommand.swift; sourceTree = "<group>"; };
+		98A6D4FE1F2BE3D900D79C16 /* MWCadCommandList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MWCadCommandList.swift; sourceTree = "<group>"; };
+		98A6D4FF1F2BE3D900D79C16 /* MWCadEntityCollection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MWCadEntityCollection.swift; sourceTree = "<group>"; };
+		98A6D5001F2BE3D900D79C16 /* MWCadLine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MWCadLine.swift; sourceTree = "<group>"; };
+		98A6D5011F2BE3D900D79C16 /* MWCadLineCollection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MWCadLineCollection.swift; sourceTree = "<group>"; };
+		98A6D5021F2BE3D900D79C16 /* MWCadTransforms.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MWCadTransforms.swift; sourceTree = "<group>"; };
+		98A6D5031F2BE3D900D79C16 /* MWCircle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MWCircle.swift; sourceTree = "<group>"; };
+		98A6D5041F2BE3D900D79C16 /* MWCircleCommandSequence.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MWCircleCommandSequence.swift; sourceTree = "<group>"; };
+		98A6D5051F2BE3D900D79C16 /* MWCommandControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MWCommandControl.swift; sourceTree = "<group>"; };
+		98A6D5061F2BE3D900D79C16 /* MWCommandSequenceProto.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MWCommandSequenceProto.swift; sourceTree = "<group>"; };
+		98A6D5071F2BE3D900D79C16 /* MWCommandStatusEnum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MWCommandStatusEnum.swift; sourceTree = "<group>"; };
+		98A6D5081F2BE3D900D79C16 /* MWCopyCommandSequence.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MWCopyCommandSequence.swift; sourceTree = "<group>"; };
+		98A6D5091F2BE3D900D79C16 /* MWDeleteCommandSequence.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MWDeleteCommandSequence.swift; sourceTree = "<group>"; };
+		98A6D50A1F2BE3D900D79C16 /* MWDescriptionReader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MWDescriptionReader.swift; sourceTree = "<group>"; };
+		98A6D50B1F2BE3D900D79C16 /* MWDistCommandSequence.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MWDistCommandSequence.swift; sourceTree = "<group>"; };
+		98A6D50C1F2BE3D900D79C16 /* MWDrawCommands.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MWDrawCommands.swift; sourceTree = "<group>"; };
+		98A6D50D1F2BE3D900D79C16 /* MWDrawingSpace.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MWDrawingSpace.swift; sourceTree = "<group>"; };
+		98A6D50E1F2BE3D900D79C16 /* MWIDCommandSequence.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MWIDCommandSequence.swift; sourceTree = "<group>"; };
+		98A6D50F1F2BE3D900D79C16 /* MWLine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MWLine.swift; sourceTree = "<group>"; };
+		98A6D5101F2BE3D900D79C16 /* MWLineCommandSequence.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MWLineCommandSequence.swift; sourceTree = "<group>"; };
+		98A6D5111F2BE3D900D79C16 /* MWListCommandSequence.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MWListCommandSequence.swift; sourceTree = "<group>"; };
+		98A6D5121F2BE3D900D79C16 /* MWMlineCommandSequence.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MWMlineCommandSequence.swift; sourceTree = "<group>"; };
+		98A6D5131F2BE3D900D79C16 /* MWMoveCommmadSequence.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MWMoveCommmadSequence.swift; sourceTree = "<group>"; };
+		98A6D5141F2BE3D900D79C16 /* MWPointPickedStatusEnum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MWPointPickedStatusEnum.swift; sourceTree = "<group>"; };
+		98A6D5151F2BE3D900D79C16 /* MWSelectionSet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MWSelectionSet.swift; sourceTree = "<group>"; };
+		98A6D5161F2BE3D900D79C16 /* MWSnapsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MWSnapsController.swift; sourceTree = "<group>"; };
+		98A6D5171F2BE3D900D79C16 /* MWSurveyCall.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MWSurveyCall.swift; sourceTree = "<group>"; };
+		98A6D5181F2BE3D900D79C16 /* MWSurveyCallEnumerations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MWSurveyCallEnumerations.swift; sourceTree = "<group>"; };
+		98A6D5191F2BE3D900D79C16 /* MWSurveyCallRules.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MWSurveyCallRules.swift; sourceTree = "<group>"; };
+		98A6D51A1F2BE3D900D79C16 /* MWSwipeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MWSwipeView.swift; sourceTree = "<group>"; };
+		98A6D51B1F2BE3D900D79C16 /* MWTransformCalculations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MWTransformCalculations.swift; sourceTree = "<group>"; };
+		98A6D51C1F2BE3D900D79C16 /* MWZoomExtentsCommandSequence.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MWZoomExtentsCommandSequence.swift; sourceTree = "<group>"; };
+		98A6D51D1F2BE3D900D79C16 /* myViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = myViewController.swift; sourceTree = "<group>"; };
+		98A6D51E1F2BE3D900D79C16 /* NSTextView_Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSTextView_Extension.swift; sourceTree = "<group>"; };
+		98A6D5491F2BE3EA00D79C16 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		98A6D54B1F2BE40100D79C16 /* righton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = righton.png; sourceTree = "<group>"; };
+		98A6D54C1F2BE40100D79C16 /* SplitViewController_Main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplitViewController_Main.swift; sourceTree = "<group>"; };
+		98A6D54D1F2BE40100D79C16 /* String_Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = String_Extension.swift; sourceTree = "<group>"; };
+		98A6D54E1F2BE40100D79C16 /* ViewController_LegalTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController_LegalTextView.swift; sourceTree = "<group>"; };
+		98A6D54F1F2BE40100D79C16 /* ViewController_textInputPanel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController_textInputPanel.swift; sourceTree = "<group>"; };
+		98A6D5501F2BE40100D79C16 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		98A6D5581F2BE9BB00D79C16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		98A6D55A1F2BEA7B00D79C16 /* WindowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WindowController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +167,55 @@
 		98A6D4C01F2BE21200D79C16 = {
 			isa = PBXGroup;
 			children = (
+				98A6D5571F2BE9BB00D79C16 /* Main.storyboard */,
+				98A6D55A1F2BEA7B00D79C16 /* WindowController.swift */,
+				98A6D54C1F2BE40100D79C16 /* SplitViewController_Main.swift */,
+				98A6D54B1F2BE40100D79C16 /* righton.png */,
+				98A6D54F1F2BE40100D79C16 /* ViewController_textInputPanel.swift */,
+				98A6D51D1F2BE3D900D79C16 /* myViewController.swift */,
+				98A6D50D1F2BE3D900D79C16 /* MWDrawingSpace.swift */,
+				98A6D54E1F2BE40100D79C16 /* ViewController_LegalTextView.swift */,
+				98A6D5501F2BE40100D79C16 /* ViewController.swift */,
+				98A6D5491F2BE3EA00D79C16 /* AppDelegate.swift */,
+				98A6D4F71F2BE3D900D79C16 /* CGFloat_Extension.swift */,
+				98A6D4F81F2BE3D900D79C16 /* Info.plist */,
+				98A6D4F91F2BE3D900D79C16 /* MWArc.swift */,
+				98A6D4FA1F2BE3D900D79C16 /* MWArcCommandSequence.swift */,
+				98A6D4FB1F2BE3D900D79C16 /* MWCadArc.swift */,
+				98A6D4FC1F2BE3D900D79C16 /* MWCadCircle.swift */,
+				98A6D4FD1F2BE3D900D79C16 /* MWCadCommand.swift */,
+				98A6D4FE1F2BE3D900D79C16 /* MWCadCommandList.swift */,
+				98A6D4FF1F2BE3D900D79C16 /* MWCadEntityCollection.swift */,
+				98A6D5001F2BE3D900D79C16 /* MWCadLine.swift */,
+				98A6D5011F2BE3D900D79C16 /* MWCadLineCollection.swift */,
+				98A6D5021F2BE3D900D79C16 /* MWCadTransforms.swift */,
+				98A6D5031F2BE3D900D79C16 /* MWCircle.swift */,
+				98A6D5041F2BE3D900D79C16 /* MWCircleCommandSequence.swift */,
+				98A6D5051F2BE3D900D79C16 /* MWCommandControl.swift */,
+				98A6D5061F2BE3D900D79C16 /* MWCommandSequenceProto.swift */,
+				98A6D5071F2BE3D900D79C16 /* MWCommandStatusEnum.swift */,
+				98A6D5081F2BE3D900D79C16 /* MWCopyCommandSequence.swift */,
+				98A6D5091F2BE3D900D79C16 /* MWDeleteCommandSequence.swift */,
+				98A6D50A1F2BE3D900D79C16 /* MWDescriptionReader.swift */,
+				98A6D50B1F2BE3D900D79C16 /* MWDistCommandSequence.swift */,
+				98A6D50C1F2BE3D900D79C16 /* MWDrawCommands.swift */,
+				98A6D50E1F2BE3D900D79C16 /* MWIDCommandSequence.swift */,
+				98A6D50F1F2BE3D900D79C16 /* MWLine.swift */,
+				98A6D5101F2BE3D900D79C16 /* MWLineCommandSequence.swift */,
+				98A6D5111F2BE3D900D79C16 /* MWListCommandSequence.swift */,
+				98A6D5121F2BE3D900D79C16 /* MWMlineCommandSequence.swift */,
+				98A6D5131F2BE3D900D79C16 /* MWMoveCommmadSequence.swift */,
+				98A6D5141F2BE3D900D79C16 /* MWPointPickedStatusEnum.swift */,
+				98A6D5151F2BE3D900D79C16 /* MWSelectionSet.swift */,
+				98A6D5161F2BE3D900D79C16 /* MWSnapsController.swift */,
+				98A6D5171F2BE3D900D79C16 /* MWSurveyCall.swift */,
+				98A6D5181F2BE3D900D79C16 /* MWSurveyCallEnumerations.swift */,
+				98A6D5191F2BE3D900D79C16 /* MWSurveyCallRules.swift */,
+				98A6D51A1F2BE3D900D79C16 /* MWSwipeView.swift */,
+				98A6D51B1F2BE3D900D79C16 /* MWTransformCalculations.swift */,
+				98A6D51C1F2BE3D900D79C16 /* MWZoomExtentsCommandSequence.swift */,
+				98A6D51E1F2BE3D900D79C16 /* NSTextView_Extension.swift */,
+				98A6D54D1F2BE40100D79C16 /* String_Extension.swift */,
 				98A6D4CB1F2BE21200D79C16 /* swiftc */,
 				98A6D4DD1F2BE21200D79C16 /* swiftcTests */,
 				98A6D4E81F2BE21200D79C16 /* swiftcUITests */,
@@ -95,10 +236,7 @@
 		98A6D4CB1F2BE21200D79C16 /* swiftc */ = {
 			isa = PBXGroup;
 			children = (
-				98A6D4CC1F2BE21200D79C16 /* AppDelegate.swift */,
-				98A6D4CE1F2BE21200D79C16 /* ViewController.swift */,
 				98A6D4D01F2BE21200D79C16 /* Assets.xcassets */,
-				98A6D4D21F2BE21200D79C16 /* Main.storyboard */,
 				98A6D4D51F2BE21200D79C16 /* Info.plist */,
 			);
 			path = swiftc;
@@ -233,7 +371,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				98A6D4D11F2BE21200D79C16 /* Assets.xcassets in Resources */,
-				98A6D4D41F2BE21200D79C16 /* Main.storyboard in Resources */,
+				98A6D5591F2BE9BB00D79C16 /* Main.storyboard in Resources */,
+				98A6D5511F2BE40100D79C16 /* righton.png in Resources */,
+				98A6D5211F2BE3D900D79C16 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,8 +398,52 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				98A6D4CF1F2BE21200D79C16 /* ViewController.swift in Sources */,
-				98A6D4CD1F2BE21200D79C16 /* AppDelegate.swift in Sources */,
+				98A6D5371F2BE3D900D79C16 /* MWIDCommandSequence.swift in Sources */,
+				98A6D5401F2BE3D900D79C16 /* MWSurveyCall.swift in Sources */,
+				98A6D5301F2BE3D900D79C16 /* MWCommandStatusEnum.swift in Sources */,
+				98A6D53A1F2BE3D900D79C16 /* MWListCommandSequence.swift in Sources */,
+				98A6D5531F2BE40100D79C16 /* String_Extension.swift in Sources */,
+				98A6D5471F2BE3D900D79C16 /* NSTextView_Extension.swift in Sources */,
+				98A6D53B1F2BE3D900D79C16 /* MWMlineCommandSequence.swift in Sources */,
+				98A6D5351F2BE3D900D79C16 /* MWDrawCommands.swift in Sources */,
+				98A6D5461F2BE3D900D79C16 /* myViewController.swift in Sources */,
+				98A6D53E1F2BE3D900D79C16 /* MWSelectionSet.swift in Sources */,
+				98A6D5381F2BE3D900D79C16 /* MWLine.swift in Sources */,
+				98A6D55B1F2BEA7B00D79C16 /* WindowController.swift in Sources */,
+				98A6D5261F2BE3D900D79C16 /* MWCadCommand.swift in Sources */,
+				98A6D5411F2BE3D900D79C16 /* MWSurveyCallEnumerations.swift in Sources */,
+				98A6D5221F2BE3D900D79C16 /* MWArc.swift in Sources */,
+				98A6D5271F2BE3D900D79C16 /* MWCadCommandList.swift in Sources */,
+				98A6D5551F2BE40100D79C16 /* ViewController_textInputPanel.swift in Sources */,
+				98A6D52F1F2BE3D900D79C16 /* MWCommandSequenceProto.swift in Sources */,
+				98A6D53D1F2BE3D900D79C16 /* MWPointPickedStatusEnum.swift in Sources */,
+				98A6D52A1F2BE3D900D79C16 /* MWCadLineCollection.swift in Sources */,
+				98A6D53C1F2BE3D900D79C16 /* MWMoveCommmadSequence.swift in Sources */,
+				98A6D5431F2BE3D900D79C16 /* MWSwipeView.swift in Sources */,
+				98A6D52E1F2BE3D900D79C16 /* MWCommandControl.swift in Sources */,
+				98A6D52C1F2BE3D900D79C16 /* MWCircle.swift in Sources */,
+				98A6D5251F2BE3D900D79C16 /* MWCadCircle.swift in Sources */,
+				98A6D5361F2BE3D900D79C16 /* MWDrawingSpace.swift in Sources */,
+				98A6D52D1F2BE3D900D79C16 /* MWCircleCommandSequence.swift in Sources */,
+				98A6D52B1F2BE3D900D79C16 /* MWCadTransforms.swift in Sources */,
+				98A6D5441F2BE3D900D79C16 /* MWTransformCalculations.swift in Sources */,
+				98A6D5561F2BE40100D79C16 /* ViewController.swift in Sources */,
+				98A6D5291F2BE3D900D79C16 /* MWCadLine.swift in Sources */,
+				98A6D5311F2BE3D900D79C16 /* MWCopyCommandSequence.swift in Sources */,
+				98A6D5281F2BE3D900D79C16 /* MWCadEntityCollection.swift in Sources */,
+				98A6D54A1F2BE3EA00D79C16 /* AppDelegate.swift in Sources */,
+				98A6D5201F2BE3D900D79C16 /* CGFloat_Extension.swift in Sources */,
+				98A6D5341F2BE3D900D79C16 /* MWDistCommandSequence.swift in Sources */,
+				98A6D5331F2BE3D900D79C16 /* MWDescriptionReader.swift in Sources */,
+				98A6D5391F2BE3D900D79C16 /* MWLineCommandSequence.swift in Sources */,
+				98A6D5541F2BE40100D79C16 /* ViewController_LegalTextView.swift in Sources */,
+				98A6D53F1F2BE3D900D79C16 /* MWSnapsController.swift in Sources */,
+				98A6D5231F2BE3D900D79C16 /* MWArcCommandSequence.swift in Sources */,
+				98A6D5451F2BE3D900D79C16 /* MWZoomExtentsCommandSequence.swift in Sources */,
+				98A6D5521F2BE40100D79C16 /* SplitViewController_Main.swift in Sources */,
+				98A6D5241F2BE3D900D79C16 /* MWCadArc.swift in Sources */,
+				98A6D5321F2BE3D900D79C16 /* MWDeleteCommandSequence.swift in Sources */,
+				98A6D5421F2BE3D900D79C16 /* MWSurveyCallRules.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,10 +479,10 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		98A6D4D21F2BE21200D79C16 /* Main.storyboard */ = {
+		98A6D5571F2BE9BB00D79C16 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				98A6D4D31F2BE21200D79C16 /* Base */,
+				98A6D5581F2BE9BB00D79C16 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -402,12 +586,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 6F9Z2AKB5R;
 				INFOPLIST_FILE = swiftc/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mac.walker.swiftc;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -416,12 +602,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 6F9Z2AKB5R;
 				INFOPLIST_FILE = swiftc/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mac.walker.swiftc;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -507,6 +695,7 @@
 				98A6D4F01F2BE21200D79C16 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		98A6D4F11F2BE21200D79C16 /* Build configuration list for PBXNativeTarget "swiftcTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +704,7 @@
 				98A6D4F31F2BE21200D79C16 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		98A6D4F41F2BE21200D79C16 /* Build configuration list for PBXNativeTarget "swiftcUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +713,7 @@
 				98A6D4F61F2BE21200D79C16 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
